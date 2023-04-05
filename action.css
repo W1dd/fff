@@ -1,0 +1,174 @@
+.head{
+	height: 100%;
+	width: auto;
+}
+html {
+	background-color: lightgray;
+	font-family: Arial;
+}
+body {
+	margin: 0 auto;
+	background-color: white;
+	background-repeat: no-repeat;
+
+}
+.Header{
+	background: rgb(152, 151, 153);
+	margin:-22px 0 0 0;
+    height:150px;
+	width: 2000px;
+}
+
+.header_div{
+	display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 28px;
+}
+
+.header_ul{
+    list-style-type:none;
+  }
+
+.li{
+	margin:50px 25px 100px 0px;
+  left: 100px;
+}
+.header_link{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.Link{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Name{
+	margin:20px 0px 0px -360px;
+  font-size: 25p0;
+}
+
+.Img1{
+	width: 180px;
+	margin:-150px 0px 10px 10px;
+}
+.move{
+	display: flex;
+  font-size: 20px;
+}
+
+.British{
+	margin: 0px 0px 10px 0px;
+}
+
+.button_up{
+    width: 250px;
+    height: 65px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    cursor: pointer;
+    border:none;
+    background: #df8b1d;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    transition: 0.2s;
+    text-decoration: none;
+	margin: 60px 0px 50px 50px;	
+  }
+
+  .button_up:hover{
+    transform:translateY(-5px);
+    box-shadow: 0 7px 0 rgb(73, 73, 72);
+  }
+  
+  .button_up:active{
+    transform: translateY(-2px);
+    box-shadow: 0 3px 0 rgb(41, 41, 40)
+  }
+  .Second_Button{
+    width: 175px;
+    height: 65px;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    border:none;
+    background: #8e8c91;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: 0.2s;
+    position: absolute;
+	margin: 0px 0px 0px 1050px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 33px;
+  }
+  
+  .Second_Button:hover{
+    transform:translateY(-5px);
+    box-shadow: 0 7px 0 rgb(49, 70, 187);
+  }
+  
+  .Second_Button:active{
+    transform: translateY(-2px);
+    box-shadow: 0 3px 0 rgb(60, 99, 206)
+  }
+  
+  .Film{
+    position: relative;
+    top: 20px;
+    left: 110px;
+
+  }
+.Grow{
+    font-family: DM Sans;
+    font-size: 150px;
+    line-height: 1px;
+    letter-spacing: -2.5px;
+    font-style: normal;
+    position: relative;
+	margin: -0px 0px 0px 750px;
+
+}
+.American{
+    position: relative;
+    top: 0px;
+    left: -350px;
+}
+.Grow_1{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #696871;
+    position: relative;
+    top: -70px;
+    left: 100px;
+}
+.third_Button{
+    width: 175px;
+    height: 65px;
+    position: relative;
+    cursor: pointer;
+    border:none;
+    background: #df8b1d;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: 0.2s;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 33px;
+	margin: 0px 0px 0px 830px;
+}
+.third_Button:hover{
+    transform:translateY(-5px);
+    box-shadow: 0 7px 0 rgb(44, 45, 49);
+}
+.third_Button:active{
+    transform: translateY(-2px);
+    box-shadow: 0 3px 0 rgb(55, 57, 65)
+}
+  
